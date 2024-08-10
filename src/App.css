@@ -1,0 +1,38 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 10%;
+  background-color: #80b86f;
+  border: 1px solid #adff2f;
+  color: #114b05;
+  border-radius: 8px;
+}
+
+.city-card {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#city {
+  background-color: #58b15f;
+  color: azure;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.city-card img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.city-card ul {
+  text-align: start;
+  line-height: 30px;
+}
